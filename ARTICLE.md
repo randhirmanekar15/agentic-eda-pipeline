@@ -100,7 +100,7 @@ Inspired by Aman Kharwal's **["Agentic AI Pipeline to Automate EDA"](https://ama
 
 EDA was the right first multi-agent project because the role split is real, not forced — coding and interpreting genuinely are two skills. When you're deciding whether to reach for a multi-agent design, that's the test: **are there actually distinct jobs here, or am I splitting one job to look sophisticated?** If it's the former, the output gets better. If it's the latter, you've just added latency.
 
-**Code:** [link your GitHub repo here]
+**Code:** [github.com/randhirmanekar15/agentic-eda-pipeline](https://github.com/randhirmanekar15/agentic-eda-pipeline)
 
 ---
 

@@ -68,7 +68,13 @@ def analyst_agent(schema: str, exec_output: str) -> str:
 
 
 def run(csv_path: str) -> None:
-    """End-to-end: load CSV, generate + run analysis code, write a report."""
+    """End-to-end: load CSV, generate + run analysis code, write a report.
+
+    SECURITY: the Coder agent's output is executed with `exec()` and has full host
+    privileges. This is a local analysis tool for trusted data/prompts; the
+    generated code is saved to generated_eda.py for review. Do not run it on
+    untrusted input without an OS-level sandbox.
+    """
     import matplotlib
 
     matplotlib.use("Agg")  # headless: save figures, never open a window

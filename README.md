@@ -114,7 +114,7 @@ Constants live at the top of `agent.py`:
 
 | Constant | Default | What it controls |
 |----------|---------|------------------|
-| `MODEL` | `qwen3-coder` | The Ollama model the agents use |
+| `MODEL` | `qwen3-coder:latest` | The Ollama model the agents use |
 | `CHART_DIR` | `charts` | Where generated PNGs are saved |
 
 ## Testing
